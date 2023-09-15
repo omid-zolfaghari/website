@@ -7,17 +7,23 @@
 
 .body{
 background-color: rgb(234, 193, 200);
+max-width: 100vw;
 }
 
 
 .nav{
     border-bottom: 1px solid rgb(54, 49, 49);
-    height: 50px;
+    border-radius: 3rem;
+    height: 100px;
+    width: 95vw;
+    margin: auto;
 display: flex;
 justify-content: space-evenly;
 align-items: center;
 background-color: rgb(221, 111, 111);
 font-family: Arial, Helvetica, sans-serif;
+font-weight: 700;
+z-index: 1;
 position: sticky;
 top: 0;
 }
@@ -30,11 +36,12 @@ top: 0;
     background-color: rgb(46, 46, 107);
     border: 1px solid rgb(50, 47, 47);
     margin: 100px auto;
-   padding: 1.5rem;
-   width: 900px;
-   border-radius: 5px;
+   padding: 2rem;
+   width: 80vw;
+   border-radius: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: medium;
+    overflow: auto;
     color: aliceblue;
 }
 
@@ -46,7 +53,7 @@ top: 0;
 
 .two{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -56,7 +63,7 @@ top: 0;
     border: 1px solid rgb(46, 46, 107);
     border-radius: 6px;
     box-shadow: 0 0 2px;
-    width: 250px;
+    width: 230px;
     height: 300px;
     display: flex;
 align-items: center;
@@ -86,5 +93,163 @@ bottom: 1rem;
 left: 95px;
 }
 
+.three{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5rem;
+}
 
+.box2{
+    border: 1px solid;
+    border-radius: 7px;
+    padding-top: 1rem;
+background-color: rgb(20, 57, 88);
+color: rgb(79, 218, 172);
+width: 180px;
+height: 300px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: x-large;
+font-weight: 1000;
+display: flex;
+justify-content: space-evenly;
+align-content: baseline;
+position: relative;
+}
+
+.img{
+    width: 150px;
+    height: 180px;
+    border-radius: 2rem;
+    position: absolute;
+    top: 4rem;
+}
+
+img+a{
+    color: azure;
+    position: absolute;
+    bottom: 1rem;
+}
+
+.four{
+    border: 1px solid blue;
+    border-radius: 1rem;
+    margin: 100px auto;
+    padding: 2rem;
+    width: 80vw;
+    background-color: rgb(46, 46, 107);
+    color: azure;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.bold{
+    font-weight: 900;
+}
+
+.five{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px auto;
+    
+}
+
+.box3{
+    border-radius: 10px;
+    padding-top: 1rem;
+    width: 225px;
+    height: 300px;
+    background-color: rgb(45, 45, 112);
+    color: azure;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.igm2{
+    width: 80%;
+    height: 60%;
+    border-radius: 10px;
+}
+
+
+.six{
+    color: rgb(15, 17, 17);
+    width: 20vw;
+    height: 200px;
+    padding-top: 1rem;
+    margin: 100px auto;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.seven{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px auto;
+}
+
+.box4{
+    background-color: rgb(31, 31, 116);
+    border-radius: 10px;
+    color: rgb(98, 212, 212);
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+}
+
+.link3{
+    color: rgb(215, 91, 190);
+    position: absolute;
+    bottom: 5rem;
+    left: 44%;
+}
+
+.img3{
+    width: 60%;
+    height: 30%;
+    position: absolute;
+    top: 30px;
+    left: 21%;
+}
+
+.eight{
+    width: 70vw;
+    min-height: 400px;
+    background-color: rgb(22, 22, 99);
+    color: rgb(130, 234, 199);
+    margin: 200px auto;
+    padding: 3rem;
+    border-radius: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.rule{
+    background-color: rgb(195, 53, 110);
+    color: antiquewhite;
+    width: 80px;
+    height: 40px;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    position: absolute;
+    top: 1rem;
+    border-radius: 5px;
+
+}
 
