@@ -253,3 +253,28 @@ img+a{
 
 }
 
+
+.use{
+    margin: 2rem;
+    background-color: brown;
+    color: antiquewhite;
+    border-radius: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 1rem;
+}
+
+.pass{
+    margin: 2rem;
+    background-color: brown;
+    color: antiquewhite;
+    border-radius: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 1rem;
+
+}
+
+
+.button{
+    margin: 1rem 4rem;
+}
+
